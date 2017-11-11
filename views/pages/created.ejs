@@ -17,5 +17,9 @@
         <th>Description:</th>
         <td><%= url.desc %></td>
     </tr>
+    <tr>
+        <th>Short-Link:</th>
+        <td><a href="https://patlinkcut.herokuapp.com/?q=<%= url.id %>"/>https://patlinkcut.herokuapp.com/?q=<%= url.id %></td>
+    </tr>
 </table>
 <% include ../partials/footer %>
