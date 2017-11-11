@@ -76,7 +76,7 @@ models.sequelize.sync({force:true}).then(function(){
         res.status(status).send('Something broke :/');
     });
     
-    app.listen(8080, function(){
+    app.listen(process.env.PORT || 8080, function(){
         console.log("Webserver was started on port 8080.")
     });
 })
