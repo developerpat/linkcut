@@ -1,0 +1,21 @@
+<% include ../partials/header %>
+
+<div class="jumbotron">
+    <h1>Ein neuer Eintrag wurde angelegt!</h1>
+</div>
+
+<table class="table">
+    <tr>
+        <th>ID:</th>
+        <td><%= url.id %></td>
+    </tr>
+    <tr>
+        <th>URL:</th>
+        <td><%= url.url %></td>
+    </tr>
+    <tr>
+        <th>Description:</th>
+        <td><%= url.desc %></td>
+    </tr>
+</table>
+<% include ../partials/footer %>
