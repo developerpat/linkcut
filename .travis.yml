@@ -1,4 +1,11 @@
 language: node_js
 node_js:
-  - "iojs"
-  - "7"
+- iojs
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: dP+EaADovKi+Lx1X3GDzyeTAp4nI5CJqgOFOQGrat0HT3XmjcP8+UZderkCXseIIuBQ0nByUOd0z1IBpCRXcPzOXtb0gd2YJYabm4kQGWybn9RS1zvzh4BGHr9Afhcm8diHwlpioXZLKl5n0C6ANTdBYuydEtalfWsZJv/S1iJnQ5IQHU80X0aTHPV9ldsRteLBC9MiENFfqhXy/6xiDFS1Djfgeoue+R0h51HSeXOM1WCLty/mIpY4A9MfWV+1UIpNt0Hc5YJ7LXPLqfu/N0FXE9WkCmPlMmn0VsKC5vMb08Rao+nyOZoCI958RRPaUtk46ssU0Ebi5Bq55CjWXTe9JP4i+1JSqxiyK/+fjZVGHg17k6p4QqITtTsZDWRvtSo1KdfoamWnxdWNQPi0d2ngJY6zUBWumfCBpnZHRY6ABUEPnYipKfvry1WJe8DzbdEGJY3BV+PuIw+g1T1I+M/hgfCChvyi4dXZqsYUkWCf17Uk3PGH+tC+l4J6uHP3G5sgzpAIvzb2+u6jFwf9UQc7pgWJNFLCoLDqNAVP81R0vbUeaWdGaOD5H5zzh4DKatpHx3gJefkMFkgdlMpxl7N0v4Yk+Wqim+X/Y0f8JUWewrQXvden9NHJOLon1oTmy96W/Wm45D/02ej8Ie1YBhc/acOQfAp4a/YpKAuaJrSA=
+  app: linkcut
+  on:
+    repo: developerpat/linkcut
