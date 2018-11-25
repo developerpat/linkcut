@@ -5,6 +5,4 @@ node_js:
 deploy:
   provider: heroku
   app: patlinkcut
-  api_key:
-    secure: "ac15d6e8-d0ce-4d31-8ec0-4f80db7b69a2"
     
